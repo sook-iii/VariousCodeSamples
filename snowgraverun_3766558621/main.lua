@@ -9,9 +9,12 @@ local snowgraveMod = RegisterMod("Snowgrave Run", 1)
 local primedForFirstFreeze = false
 local primedForGettingStronger = false
 
+--Helper Functions
+
+--Should return whether the player has a freezing item or not, for triggering the overall effect
 local function CheckForFreezeItems()
 
-    --print("Snowgrave: Starting Freeze Item Scan ... ")
+    --print("[Snowgrave] Starting Freeze Item Scan ... ")
 	for PlrCount = 0, Game():GetNumPlayers() do 
 
 		local plr = Isaac.GetPlayer(PlrCount)
@@ -28,9 +31,10 @@ local function CheckForFreezeItems()
 
 end
 
+--Should return whether a frozen enemy is now in the room
 local function ScanForFrozenEnemies()
 
-    --print("Snowgrave: Starting Frozen Enemy Scan ... ")
+    --print("[Snowgrave] Starting Frozen Enemy Scan ... ")
     for i, entity in ipairs(Isaac.GetRoomEntities()) do
 
         if entity.type == EntityType.ENEMY and entity:HasEntityFlags(EntityFlag.FLAG_ICE_FROZEN) then
@@ -46,26 +50,30 @@ local function ScanForFrozenEnemies()
 
 end
 
+--Do the "Proceed" effect from Deltarune
 local function Proceed()
 
-    --print("Snowgrave: Proceed")
+    --print("[Snowgrave] Proceed")
     primedForGettingStronger = true    
     SFXManager():Play(Isaac.GetSoundIdByName("Weird_Route_Jingle"), 1, 0, false, 1)
     primedForFirstFreeze = false
 
 end
 
+--Ditto, dead-end function for visuals
 local function IsaacBecomesStronger()
 
-    --print("Snowgrave: Isaac Became Stronger")
+    --print("[Snowgrave] Isaac Became Stronger")
     SFXManager():Play(Isaac.GetSoundIdByName("Became_Stronger"), 1, 0, false, 1)
     primedForGettingStronger = false
 
 end
 
+--Event Handlers
+
 local function OnRoomEnter()
 
-    --print("Snowgrave: New Room Entered")
+    --print("[Snowgrave] New Room Entered")
     if CheckForFreezeItems() then 
         
         primedForFirstFreeze = true
@@ -91,7 +99,7 @@ end
 
 local function OnRoomClear()
 
-    --print("Snowgrave: Room Cleared")
+    --print("[Snowgrave] Room Cleared")
     if CheckForFreezeItems() then 
             
         if primedForGettingStronger then
@@ -110,13 +118,13 @@ end
 
 local function OnPickup()
 
-    --print("Snowgrave: Picked Up Item")
+    --print("[Snowgrave] Picked Up Item")
     if CheckForFreezeItems() then 
 
         musicID = MusicManager():GetCurrentMusicID()
         if musicID == Music.MUSIC_PLANETARIUM or musicID == Music.MUSIC_BASEMENT or musicID == Music.MUSIC_CAVES or musicID == Music.MUSIC_DEPTHS or musicID == Music.MUSIC_CELLAR or musicID == Music.MUSIC_CATACOMBS or musicID == Music.MUSIC_NECROPOLIS or musicID == Music.MUSIC_WOMB_UTERO or musicID == Music.MUSIC_CATHEDRAL or musicID == Music.MUSIC_SHEOL or musicID == Music.MUSIC_DARK_ROOM or musicID == Music.MUSIC_CHEST or musicID == Music.MUSIC_BURNING_BASEMENT or musicID == Music.MUSIC_FLOODED_CAVES or musicID == Music.MUSIC_DANK_DEPTHS or musicID == Music.MUSIC_SCARRED_WOMB or musicID == Music.MUSIC_BLUE_WOMB or musicID == Music.MUSIC_UTERO or musicID == Music.MUSIC_VOID or musicID == Music.MUSIC_DOWNPOUR or musicID == Music.MUSIC_MINES or musicID == Music.MUSIC_MAUSOLEUM or musicID == Music.MUSIC_CORPSE or musicID == Music.MUSIC_DROSS or musicID == Music.MUSIC_ASHPIT or musicID == Music.MUSIC_GEHENNA or musicID == Music.MUSIC_MORTIS or musicID == Music.MUSIC_DOWNPOUR_REVERSE or musicID == Music.MUSIC_DROSS_REVERSE then
 
-            --print("Snowgrave: Slowing Things Down")
+            --print("[Snowgrave] Slowing Things Down")
             MusicManager():Play(Isaac.GetMusicIdByName("Welcome_To_The_City"))
             MusicManager():UpdateVolume()
 
@@ -126,13 +134,13 @@ end
 
 local function OnMusicPlay(table, musicID)
     
-    --print("Snowgrave: New Music Playing")
+    --print("[Snowgrave] New Music Playing")
     print(musicID)
     if musicID == Music.MUSIC_PLANETARIUM or musicID == Music.MUSIC_BASEMENT or musicID == Music.MUSIC_CAVES or musicID == Music.MUSIC_DEPTHS or musicID == Music.MUSIC_CELLAR or musicID == Music.MUSIC_CATACOMBS or musicID == Music.MUSIC_NECROPOLIS or musicID == Music.MUSIC_WOMB_UTERO or musicID == Music.MUSIC_CATHEDRAL or musicID == Music.MUSIC_SHEOL or musicID == Music.MUSIC_DARK_ROOM or musicID == Music.MUSIC_CHEST or musicID == Music.MUSIC_BURNING_BASEMENT or musicID == Music.MUSIC_FLOODED_CAVES or musicID == Music.MUSIC_DANK_DEPTHS or musicID == Music.MUSIC_SCARRED_WOMB or musicID == Music.MUSIC_BLUE_WOMB or musicID == Music.MUSIC_UTERO or musicID == Music.MUSIC_VOID or musicID == Music.MUSIC_DOWNPOUR or musicID == Music.MUSIC_MINES or musicID == Music.MUSIC_MAUSOLEUM or musicID == Music.MUSIC_CORPSE or musicID == Music.MUSIC_DROSS or musicID == Music.MUSIC_ASHPIT or musicID == Music.MUSIC_GEHENNA or musicID == Music.MUSIC_MORTIS then
 
         if CheckForFreezeItems() then 
 
-            --print("Snowgrave: Slowing Things Down")
+            --print("[Snowgrave] Slowing Things Down")
             return Isaac.GetMusicIdByName("Welcome_To_The_City")
 
         end
@@ -142,7 +150,7 @@ local function OnMusicPlay(table, musicID)
 
         if CheckForFreezeItems() then 
 
-            --print("Snowgrave: Slowing Things Down")
+            --print("[Snowgrave] Slowing Things Down")
             
             return Isaac.GetMusicIdByName("Berdly_Battle")
 
@@ -153,7 +161,7 @@ local function OnMusicPlay(table, musicID)
 
         if CheckForFreezeItems() then 
 
-            --print("Snowgrave: Slowing Things Down")
+            --print("[Snowgrave] Slowing Things Down")
             
             return Isaac.GetMusicIdByName("Happy_Town")
 
@@ -164,13 +172,15 @@ local function OnMusicPlay(table, musicID)
 
         if CheckForFreezeItems() then 
 
-            --print("Snowgrave: Slowing Things Down")
+            --print("[Snowgrave] Slowing Things Down")
             
             return Isaac.GetMusicIdByName("Insert_Disk")
 
         end
     end
 end
+
+--Callbacks
 
 snowgraveMod:AddCallback(ModCallbacks.MC_POST_NEW_ROOM, OnRoomEnter)
 snowgraveMod:AddCallback(ModCallbacks.MC_POST_UPDATE, OnUpdate)
