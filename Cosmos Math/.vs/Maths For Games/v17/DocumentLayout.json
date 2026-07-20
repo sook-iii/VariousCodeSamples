@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|D:\\Github\\VariousCodeSamples\\Cosmos Math\\assets\\ashvectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|solutionrelative:assets\\ashvectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|D:\\Github\\VariousCodeSamples\\Cosmos Math\\assets\\ashtransformtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|solutionrelative:assets\\ashtransformtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|d:\\github\\variouscodesamples\\cosmos math\\assets\\moverandomlyandtowards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|solutionrelative:assets\\moverandomlyandtowards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|D:\\Github\\VariousCodeSamples\\Cosmos Math\\assets\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|solutionrelative:assets\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|D:\\Github\\VariousCodeSamples\\Cosmos Math\\assets\\shiptransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|solutionrelative:assets\\shiptransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|D:\\Github\\VariousCodeSamples\\Cosmos Math\\assets\\planettransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B68F0B-6702-F1EC-891C-45A828DEE59C}|Assembly-CSharp.csproj|solutionrelative:assets\\planettransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C399F0B-F0D2-7D34-36C2-4110833E142A}|Assembly-CSharp-Editor.csproj|D:\\Github\\VariousCodeSamples\\Cosmos Math\\assets\\editor\\transformtranslatorgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C399F0B-F0D2-7D34-36C2-4110833E142A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\transformtranslatorgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransformTranslatorGUI.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\Editor\\TransformTranslatorGUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\TransformTranslatorGUI.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\Editor\\TransformTranslatorGUI.cs",
+              "RelativeToolTip": "Assets\\Editor\\TransformTranslatorGUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABIAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVDhP7Y8xSwJxGMZ/5/GPkAM/QTiccI5xUG65ieAUgv4dXMTBLxFEtTm4CC1RRPUtHFvERW7I5RqyIZBuEG5S5G0o/4hER7u/6YHn4XmfF3YYxm9jad43xbvyxL1wpXHXkLUXzSPJXeZkWwNYAME0kPpjncJBgdZxi8x\u002Bhslsgj7SVjSPxO/567xB2YrwLLQAaD\u002B1pXJdkTiOTfMmfy1IAYzeR5S8Eo7jfDf\u002BgxTAYrVA2Wrbg5\u002BLfs9nuVqSPc8avbmC2m1NqjfVX\u002BeT8IIFMHwdin7QlPNl9KFG2YrgI6Bz0kl8yQQGLwPpP/cJP0PSe2mKbpHuaTexYAd8AREpdKtYXY\u002BXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-20T19:00:23.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Organizer.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\Organizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Organizer.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\Organizer.cs",
+              "RelativeToolTip": "Assets\\Organizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAZAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVDhP7Y8xSwJxGMZ/5/GPkAM/QTiccI5xUG65ieAUgv4dXMTBLxFEtTm4CC1RRPUtHFvERW7I5RqyIZBuEG5S5G0o/4hER7u/6YHn4XmfF3YYxm9jad43xbvyxL1wpXHXkLUXzSPJXeZkWwNYAME0kPpjncJBgdZxi8x\u002Bhslsgj7SVjSPxO/567xB2YrwLLQAaD\u002B1pXJdkTiOTfMmfy1IAYzeR5S8Eo7jfDf\u002BgxTAYrVA2Wrbg5\u002BLfs9nuVqSPc8avbmC2m1NqjfVX\u002BeT8IIFMHwdin7QlPNl9KFG2YrgI6Bz0kl8yQQGLwPpP/cJP0PSe2mKbpHuaTexYAd8AREpdKtYXY\u002BXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-20T19:00:23.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanetTransformer.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\PlanetTransformer.cs",
+              "RelativeDocumentMoniker": "Assets\\PlanetTransformer.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\PlanetTransformer.cs",
+              "RelativeToolTip": "Assets\\PlanetTransformer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAADEAAABHAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVDhP7Y8xSwJxGMZ/5/GPkAM/QTiccI5xUG65ieAUgv4dXMTBLxFEtTm4CC1RRPUtHFvERW7I5RqyIZBuEG5S5G0o/4hER7u/6YHn4XmfF3YYxm9jad43xbvyxL1wpXHXkLUXzSPJXeZkWwNYAME0kPpjncJBgdZxi8x\u002Bhslsgj7SVjSPxO/567xB2YrwLLQAaD\u002B1pXJdkTiOTfMmfy1IAYzeR5S8Eo7jfDf\u002BgxTAYrVA2Wrbg5\u002BLfs9nuVqSPc8avbmC2m1NqjfVX\u002BeT8IIFMHwdin7QlPNl9KFG2YrgI6Bz0kl8yQQGLwPpP/cJP0PSe2mKbpHuaTexYAd8AREpdKtYXY\u002BXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-20T19:00:23.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShipTransformer.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\ShipTransformer.cs",
+              "RelativeDocumentMoniker": "Assets\\ShipTransformer.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\ShipTransformer.cs",
+              "RelativeToolTip": "Assets\\ShipTransformer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVDhP7Y8xSwJxGMZ/5/GPkAM/QTiccI5xUG65ieAUgv4dXMTBLxFEtTm4CC1RRPUtHFvERW7I5RqyIZBuEG5S5G0o/4hER7u/6YHn4XmfF3YYxm9jad43xbvyxL1wpXHXkLUXzSPJXeZkWwNYAME0kPpjncJBgdZxi8x\u002Bhslsgj7SVjSPxO/567xB2YrwLLQAaD\u002B1pXJdkTiOTfMmfy1IAYzeR5S8Eo7jfDf\u002BgxTAYrVA2Wrbg5\u002BLfs9nuVqSPc8avbmC2m1NqjfVX\u002BeT8IIFMHwdin7QlPNl9KFG2YrgI6Bz0kl8yQQGLwPpP/cJP0PSe2mKbpHuaTexYAd8AREpdKtYXY\u002BXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-07-20T19:00:23.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoveRandomlyAndTowards.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\MoveRandomlyAndTowards.cs",
+              "RelativeDocumentMoniker": "Assets\\MoveRandomlyAndTowards.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\MoveRandomlyAndTowards.cs",
+              "RelativeToolTip": "Assets\\MoveRandomlyAndTowards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T19:00:23.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AshTransformTranslator.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\AshTransformTranslator.cs",
+              "RelativeDocumentMoniker": "Assets\\AshTransformTranslator.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\AshTransformTranslator.cs",
+              "RelativeToolTip": "Assets\\AshTransformTranslator.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T19:00:23.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AshVectors.cs",
+              "DocumentMoniker": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\AshVectors.cs",
+              "RelativeDocumentMoniker": "Assets\\AshVectors.cs",
+              "ToolTip": "D:\\Github\\VariousCodeSamples\\Cosmos Math\\Assets\\AshVectors.cs",
+              "RelativeToolTip": "Assets\\AshVectors.cs",
+              "ViewState": "AgIAAHYCAAAAAAAAAAAQwFQBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T19:00:23.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

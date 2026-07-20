@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TeapotOceanMaterial
+  m_Shader: {fileID: 4800000, guid: 73e2fee1a5ceff04c91a70c31043defb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: 1450c646cf8bcbc428009572480948bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1450c646cf8bcbc428009572480948bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 765609caeee6cd64f8542f1fb9e2bc9d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionTexture:
+        m_Texture: {fileID: 2800000, guid: f67dae9c4d29bec43afba0d73ea3848e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTexture:
+        m_Texture: {fileID: 2800000, guid: a6f6a6735d65511418348e1637a3bf32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientLightingStyle: 1
+    - _DiffuseLightingStyle: 1
+    - _GerstnerCircleRadius: 0
+    - _Light1Intensity: 1000
+    - _Light1SpotlightAngle: 1
+    - _Light1SpotlightLimit: 0
+    - _Light1Type: 0
+    - _Light2Intensity: 0
+    - _Light2SpotlightAngle: 1
+    - _Light2SpotlightLimit: 0
+    - _Light2Type: 1
+    - _Light3Intensity: 0
+    - _Light3SpotlightAngle: 1
+    - _Light3SpotlightLimit: 9
+    - _Light3Type: 2
+    - _LightType: 0
+    - _OceanScale: 0
+    - _OceanSize: 1000
+    - _SpecularLightingStyle: 1
+    - _SpecularPower: 15.16
+    - _WaveAmplitude: 1
+    - _WaveLength: 1
+    - _WaveSpeed: 1
+    - _WaveSteepness: 1
+    - _WindSpeed: 1
+    m_Colors:
+    - _AmbientLight1Colour: {r: 1, g: 0, b: 0, a: 0}
+    - _AmbientLight2Colour: {r: 0, g: 1, b: 0, a: 0}
+    - _AmbientLight3Colour: {r: 0, g: 0, b: 1, a: 0}
+    - _AmbientLightColour: {r: 1, g: 1, b: 1, a: 0}
+    - _DiffuseLight1Colour: {r: 1, g: 1, b: 1, a: 0.20392157}
+    - _DiffuseLight2Colour: {r: 1, g: 1, b: 1, a: 0.20392157}
+    - _DiffuseLight3Colour: {r: 1, g: 1, b: 1, a: 0.20392157}
+    - _DiffuseLightColour: {r: 1, g: 1, b: 1, a: 0.13333334}
+    - _Light1Direction: {r: -0.57735026, g: 0.5773503, b: 0.57735026, a: 0}
+    - _Light1Position: {r: -60, g: 60, b: 60, a: 0}
+    - _Light2Direction: {r: -0.107793614, g: 0.5389681, b: 0.83540064, a: 0}
+    - _Light2Position: {r: -4, g: 20, b: 31, a: 0}
+    - _Light3Direction: {r: 0.86685544, g: 0.3684136, b: -0.33590645, a: 0}
+    - _Light3Position: {r: 80, g: 34, b: -31, a: 0}
+    - _LightDirection: {r: -0, g: -0, b: -1, a: 0}
+    - _LightPosition: {r: 51, g: 13, b: 30, a: 0}
+    - _OceanColour: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularLight1Colour: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularLight2Colour: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularLight3Colour: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularLightColour: {r: 0, g: 0, b: 1, a: 1}
+    - _TextureDetails: {r: 1, g: 1, b: 0, a: 0}
+    - _Wave1Details: {r: 1, g: 1, b: 0, a: 0}
+    - _Wave2Details: {r: -0.92, g: 1, b: 0, a: 0}
+    - _Wave3Details: {r: 0, g: 1, b: 0, a: 0}
+    - _WaveDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _WindDirection: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

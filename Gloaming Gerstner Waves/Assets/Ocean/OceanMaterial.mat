@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OceanMaterial
+  m_Shader: {fileID: 4800000, guid: 73e2fee1a5ceff04c91a70c31043defb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: 3b2fd854c3aac7e45879cb01d66baec8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1450c646cf8bcbc428009572480948bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: c44d86972e125e8458a20007f7015fa5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionTexture:
+        m_Texture: {fileID: 2800000, guid: 74b56110bbff2694e98001548144cbd2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTexture:
+        m_Texture: {fileID: 2800000, guid: 8ba64ae0943e5f848a74a6e4e5d991ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyboxTexture:
+        m_Texture: {fileID: 8900000, guid: 810717d89a09cb84f9c4eb09558233f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientLightingStyle: 2
+    - _DiffuseLightingStyle: 2
+    - _FoamFalloff: 1.8
+    - _FresnelPower: 4.23
+    - _GerstnerCircleRadius: 12
+    - _IndexOfRefraction: 1.13
+    - _Light1Intensity: 1000
+    - _Light1SpotlightAngle: 1
+    - _Light1SpotlightLimit: 0
+    - _Light1Type: 0
+    - _Light2Intensity: 1000
+    - _Light2SpotlightAngle: 1
+    - _Light2SpotlightLimit: 0
+    - _Light2Type: 1
+    - _Light3Intensity: 100000
+    - _Light3SpotlightAngle: 1
+    - _Light3SpotlightLimit: 9
+    - _Light3Type: 2
+    - _LightRedirectionStyle: 3
+    - _LightType: 0
+    - _MainRoughness: 0
+    - _MainScale: 0
+    - _OceanRoughness: 0
+    - _OceanScale: 0
+    - _OceanSize: 1000
+    - _SkyboxBlur: 0
+    - _SpecularLightingStyle: 1
+    - _SpecularPower: 2.89
+    - _Sphere1Radius: 10
+    - _Sphere2Radius: 7.5
+    - _Sphere3Radius: 5
+    - _WaveAmplitude: 1
+    - _WaveLength: 1
+    - _WaveSpeed: 1
+    - _WaveSteepness: 1
+    - _WindSpeed: 1
+    m_Colors:
+    - _AmbientLight1Colour: {r: 1, g: 1, b: 1, a: 0.5882353}
+    - _AmbientLight2Colour: {r: 1, g: 0, b: 0, a: 0.015686275}
+    - _AmbientLight3Colour: {r: 1, g: 0.92156863, b: 0.7137255, a: 0.015686275}
+    - _AmbientLightColour: {r: 1, g: 1, b: 1, a: 0}
+    - _DiffuseLight1Colour: {r: 1, g: 1, b: 1, a: 0.2901961}
+    - _DiffuseLight2Colour: {r: 1, g: 0, b: 0, a: 0.20392157}
+    - _DiffuseLight3Colour: {r: 1, g: 0.92156863, b: 0.7137255, a: 0.20392157}
+    - _DiffuseLightColour: {r: 1, g: 1, b: 1, a: 0.13333334}
+    - _FoamColour: {r: 0.8632076, g: 1, b: 0.9848008, a: 1}
+    - _FoamTextureDetails: {r: 150, g: 1, b: 10, a: 65}
+    - _Light1Direction: {r: 0.7071068, g: 0.7071068, b: 0.00000008940697, a: 0}
+    - _Light1Position: {r: 60, g: 60, b: 0, a: 0}
+    - _Light2Direction: {r: -0.6993507, g: 0.14770702, b: 0.6993506, a: 0}
+    - _Light2Position: {r: -40, g: 8.448236, b: 40, a: 0}
+    - _Light3Direction: {r: -0.87432736, g: 0.17364825, b: -0.45320854, a: 0}
+    - _Light3Position: {r: -20, g: 12.281811, b: -40, a: 0}
+    - _LightDirection: {r: -0, g: -0, b: -1, a: 0}
+    - _LightPosition: {r: 51, g: 13, b: 30, a: 0}
+    - _MainColour: {r: 0.25943398, g: 0.68053234, b: 1, a: 0}
+    - _OceanColour: {r: 0.40610537, g: 0.58107144, b: 0.735849, a: 1}
+    - _OceanTextureDetails: {r: 150, g: 0.35, b: 2, a: 115}
+    - _SpecularLight1Colour: {r: 1, g: 1, b: 1, a: 0.36862746}
+    - _SpecularLight2Colour: {r: 1, g: 0, b: 0, a: 1}
+    - _SpecularLight3Colour: {r: 1, g: 0.92156863, b: 0.7137255, a: 1}
+    - _SpecularLightColour: {r: 0, g: 0, b: 1, a: 1}
+    - _Sphere1Position: {r: -20, g: 0.28181052, b: -40, a: 0}
+    - _Sphere2Position: {r: -40, g: -0.5517634, b: 40, a: 0}
+    - _Sphere3Position: {r: 40, g: -2.710563, b: -10, a: 0}
+    - _TextureDetails: {r: 170, g: 30, b: 3, a: 90}
+    - _Wave1Details: {r: 1.46, g: 26.8, b: 1.56, a: 0}
+    - _Wave2Details: {r: 1.66, g: 23.3, b: 4.17, a: 225}
+    - _Wave3Details: {r: 0.79, g: 11.5, b: 2.55, a: 1205}
+    - _WaveDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _WindDirection: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
