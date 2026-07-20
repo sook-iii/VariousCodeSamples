@@ -1,0 +1,7 @@
+<music root="music/snowgraverun/">
+	<track name="Welcome_To_The_City" path="welcometothecity.wav" loop="true" />
+	<track name="Berdly_Battle" path="berdlybattle.wav" loop="true" />
+	<track name="Happy_Town" path="happytown.wav" loop="true" />
+	<track name="Endokitty" path="endokitty.wav" loop="true" />
+	<track name="Insert_Disk" path="insertdisk.wav" loop="true" />
+</music>

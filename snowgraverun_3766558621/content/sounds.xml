@@ -1,0 +1,16 @@
+<sounds root="sfx/snowgraverun/">
+	<sound name="Became_Stronger">
+		<sample weight="1" path="becamestronger_1.wav" />
+		<sample weight="2" path="becamestronger_2.wav" />
+		<sample weight="3" path="becamestronger_3.wav" />
+		<sample weight="2" path="becamestronger_4.wav" />
+		<sample weight="1" path="becamestronger_5.wav" />
+	</sound>
+	<sound name="Weird_Route_Jingle">
+		<sample weight="1" path="weirdroutejingle_1.wav" />
+		<sample weight="2" path="weirdroutejingle_2.wav" />
+		<sample weight="3" path="weirdroutejingle_3.wav" />
+		<sample weight="2" path="weirdroutejingle_4.wav" />
+		<sample weight="1" path="weirdroutejingle_5.wav" />
+	</sound>
+</sounds>

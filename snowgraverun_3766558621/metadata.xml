@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Weird Runs for Freezing Items</name>
+    <directory>snowgraverun</directory>
+    <id>3766558621</id>
+    <description>Gives Snowgrave audio cues when Freezing items are equipped (Uranus, Cube Baby, and Freezer Baby). 
+
+Works on Repentance and Repentance+ but works better with Repentogon. Compatible with almost any other mod.</description>
+    <version>1.2</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Familiars"/>
+    <tag id="Babies"/>
+    <tag id="Bosses"/>
+    <tag id="Tweaks"/>
+    <tag id="Sound Effects"/>
+    <tag id="Music"/>
+</metadata>
