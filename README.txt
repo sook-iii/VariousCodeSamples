@@ -43,7 +43,7 @@ Unity, C#
 
 My oldest project here, from 2nd year, mostly included because I wanted to show off some C# work - got 91% total (First) 
 It's a relatively rudimentary orrery emulator (solar system showcase), but the part bringing home that 91% money is that I tried to code a custom maths API underneath the hood of the entire simulation.
-"AshVectors" (in the Quick Reference) is this API - it's full of "AshVectors", "AshQuaternions", etc, with every common operator built from the ground up. T
+"AshVectors" (in the Quick Reference) is this API - it's full of "AshVectors", "AshQuaternions", etc, with every common operator built from the ground up.
 As far as I'm aware, there's no good commercial reason to do this outside of developing an in-house engine - Unity's maths libraries and documentation are more than usable. However, it sure showcases the extents to which I know C# and the Unity Engine! Check it out!
 
 
