@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FourthMaterial
+  m_Shader: {fileID: 4800000, guid: 723029098f603dd4f9129e0d82a35edd, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoTex:
+        m_Texture: {fileID: 2800000, guid: f55d87189b9d37c48b1a7bf0858e62ba, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTexture:
+        m_Texture: {fileID: 2800000, guid: f55d87189b9d37c48b1a7bf0858e62ba, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f55d87189b9d37c48b1a7bf0858e62ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: fbf52278ffd305340a5aa1ddaeb0688e, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: fbf52278ffd305340a5aa1ddaeb0688e, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionTex:
+        m_Texture: {fileID: 2800000, guid: cabe9240fc4d3744cb3216c543e7560d, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionTexture:
+        m_Texture: {fileID: 2800000, guid: cabe9240fc4d3744cb3216c543e7560d, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 2800000, guid: 1135e4ed425626d4ca4da5814a551adc, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTexture:
+        m_Texture: {fileID: 2800000, guid: 1135e4ed425626d4ca4da5814a551adc, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+    - _SkyboxTexture:
+        m_Texture: {fileID: 8900000, guid: 810717d89a09cb84f9c4eb09558233f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientLighting: 2
+    - _AmbientLightingStyle: 2
+    - _DiffuseLighting: 4
+    - _DiffuseLightingStyle: 2
+    - _FresnelPower: 1
+    - _IndexOfRefraction: 1
+    - _Light1Intensity: 1000
+    - _Light1SpotlightLimit: 0
+    - _Light1Type: 0
+    - _Light2Intensity: 1000
+    - _Light2SpotlightLimit: 0
+    - _Light2Type: 1
+    - _Light3Intensity: 100000
+    - _Light3SpotlightLimit: 9
+    - _Light3Type: 2
+    - _LightRedirectionStyle: 1
+    - _LightType: 0
+    - _MainRoughness: 0
+    - _MainScale: 1
+    - _SpecularLighting: 6.05
+    - _SpecularLightingStyle: 1
+    - _SpecularPower: 1.5
+    m_Colors:
+    - _AmbientLight1Colour: {r: 1, g: 1, b: 1, a: 0.5882353}
+    - _AmbientLight2Colour: {r: 1, g: 0, b: 0, a: 0.015686275}
+    - _AmbientLight3Colour: {r: 1, g: 0.92156863, b: 0.7137255, a: 0.015686275}
+    - _AmbientLightColour: {r: 1, g: 0, b: 0, a: 0.02745098}
+    - _DiffuseLight1Colour: {r: 1, g: 1, b: 1, a: 0.2901961}
+    - _DiffuseLight2Colour: {r: 1, g: 0, b: 0, a: 0.20392157}
+    - _DiffuseLight3Colour: {r: 1, g: 0.92156863, b: 0.7137255, a: 0.20392157}
+    - _DiffuseLightColour: {r: 0, g: 1, b: 0, a: 0.24705882}
+    - _Light1Direction: {r: 0.7071068, g: 0.7071068, b: 0.00000008940697, a: 0}
+    - _Light1Position: {r: 60, g: 60, b: 0, a: 0}
+    - _Light2Direction: {r: -0.69607633, g: 0.17594215, b: 0.69607633, a: 0}
+    - _Light2Position: {r: -40, g: 10.110507, b: 40, a: 0}
+    - _Light3Direction: {r: -0.87432736, g: 0.17364825, b: -0.45320854, a: 0}
+    - _Light3Position: {r: -20, g: 11.592634, b: -40, a: 0}
+    - _LightColor: {r: 0.9811321, g: 0.9487362, b: 0.9487362, a: 0}
+    - _LightColour: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDirection: {r: -0.66666675, g: 0.33333337, b: 0.66666675, a: 0}
+    - _LightPosition: {r: -10, g: 5, b: 10, a: 0}
+    - _MainColour: {r: 0, g: 1, b: 0, a: 1}
+    - _SolidColour: {r: 0.49803922, g: 0.49803922, b: 1, a: 1}
+    - _SpecularLight1Colour: {r: 1, g: 1, b: 1, a: 0.36862746}
+    - _SpecularLight2Colour: {r: 1, g: 0, b: 0, a: 1}
+    - _SpecularLight3Colour: {r: 1, g: 0.92156863, b: 0.7137255, a: 1}
+    - _SpecularLightColour: {r: 0, g: 0, b: 1, a: 0.49803922}
+    - _SphereColour: {r: 0, g: 0, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
